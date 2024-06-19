@@ -1,0 +1,19 @@
+body {
+  height: 100vh;
+}
+
+.wrapper {
+  margin: 0px auto;
+  width: 1200px;
+}
+
+.back {
+  background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.bw8b7caN-SYPdVQ0mNSI2gHaEo%26pid%3DApi&f=1&ipt=da994eb358de6a6ac777414395f14a400d86eeb841a8839c20b0b996df466f74&ipo=images');
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(10px);
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
