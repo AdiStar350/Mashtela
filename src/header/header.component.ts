@@ -16,7 +16,6 @@ export class HeaderComponent implements OnInit {
     return "המשתלה שלכם בצפון";
   }
 
-  picHeight: number = 250;
+  picAndBorderHeight: number = 250;
   picWidth: number = 320;
-  border: number = 5;
 }

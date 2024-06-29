@@ -12,3 +12,9 @@ a {
   margin: 0px 10px;
   color: white;
 }
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 10px;
+}

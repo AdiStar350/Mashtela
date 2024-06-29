@@ -7,23 +7,16 @@
   	<body>
     	<div class="header">
       		<div class="site-image">
-        		<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.F8eKbTi9SxSZ_ntSUOi-4gHaE0%26pid%3DApi&f=1&ipt=694f860103c0b9b82642fdeaaea79959cf914c3d0e53aa5534c61d277f600438&ipo=images" [height]="picHeight" [width]="picWidth" />
+        		<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.F8eKbTi9SxSZ_ntSUOi-4gHaE0%26pid%3DApi&f=1&ipt=694f860103c0b9b82642fdeaaea79959cf914c3d0e53aa5534c61d277f600438&ipo=images" [height]="picAndBorderHeight" [width]="picWidth" />
       		</div>
 			<div class="main">
-				<div class="site-name">
+				<div [style.height.px]="picAndBorderHeight" class="site-name">
 					<h2>{{ name }}</h2>
 					<h4>{{ getSecName() }}</h4>
 				</div>
-				  <div class="site-slogen">
-					<h2>
-						השושן הצחור (Lilium candidum) הוא מין של צמח פורח ממשפחת השושניים.
-						מדובר בצמח רב שנתי עם פרחים לבנים גדולים ומרשימים בעלי ריח נעים.
-						הפרחים הם צינוריים וגדלים בקבוצות על גבי גבעולים גבוהים.
-					</h2>
-				  </div>
 			</div>
       		<div class="site-image">
-        		<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.i32QXyZw9h3FqF8CjbMbugHaE8%26pid%3DApi&f=1&ipt=e0fd7d51685b0448c8c61ad2bd5d8924893f743ece25815ef3330be1955c7599&ipo=images" [height]="picHeight" [width]="picWidth" />
+        		<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.i32QXyZw9h3FqF8CjbMbugHaE8%26pid%3DApi&f=1&ipt=e0fd7d51685b0448c8c61ad2bd5d8924893f743ece25815ef3330be1955c7599&ipo=images" [height]="picAndBorderHeight" [width]="picWidth" />
       		</div>
     	</div>
   	</body>

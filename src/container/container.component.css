@@ -5,6 +5,8 @@ body {
 .wrapper {
   margin: 0px auto;
   width: 1200px;
+  background-color: white;
+  border-radius: 0 0 30px 30px;
 }
 
 .back {

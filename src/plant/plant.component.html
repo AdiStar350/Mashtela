@@ -1,0 +1,23 @@
+<div class="calc">
+    <h2>אנא הכנס את את הפרטים הבאים:</h2>
+    <div class="field">
+        <p>שם:</p>
+        <input type="text" [(ngModel)]="name" />
+    </div>
+    <div class="field">
+        <p>מחיר:</p>
+        <input type="text" [(ngModel)]="price" />
+    </div>
+    <div class="field">
+        <p>כמות:</p>
+        <input type="text" [(ngModel)]="quantity" />
+    </div>
+    <div class="field">
+        <button class="btn" (click)="calcTotal()">חשב</button>
+        <button class="btn" (click)="clean()" >נקה</button>
+    </div>
+    <div class="field">
+        <p>סה״כ:</p>
+        <input type="text" [(ngModel)]="total" readonly />
+    </div>
+</div>
