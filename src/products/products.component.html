@@ -1,0 +1,21 @@
+<div *ngFor="let p of products; let i=index">
+    <div class="product-container">
+		<p class="index">{{i+1}}</p>
+      	<div class="image-container">
+        	<img [src]="p.image" width="200" height="200" alt="{{p.name}}">
+      	</div>
+      	<div>
+        	<div class="name-container">
+          		<h4>{{p.name}}</h4>
+				<h5>{{p.code}}</h5>
+        	</div>
+			<div class="detailContainer">
+				<div class="details"><b>מחיר:</b> {{p.price}}₪</div>
+				<div class="details"><b>צבע:</b> {{p.color}}</div>
+			</div>
+      	</div>
+      	<div class="options">
+			<button class="btn2">קנה אותי</button>
+      	</div>
+    </div>
+</div>

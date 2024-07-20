@@ -1,0 +1,47 @@
+
+.product-container {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  width: 100vw;
+  height: 200px;
+  gap: 7%;
+  margin-right: 7%;
+}
+
+.image-container {
+  background-color: #fff;
+  text-align: center;
+  padding: 20px 0 20px 0;
+}
+
+.detailContainer {
+  display: flex;
+  margin: 0 20px;
+}
+
+.name-container {
+  margin: 0 20px;
+}
+
+.details {
+  width: 140px;
+}
+
+.options {
+  width: 220px;
+  margin-left: auto;
+}
+
+.btn2 {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.index {
+  font-size: x-large;
+}
