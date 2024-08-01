@@ -12,9 +12,7 @@ export class HeaderComponent implements OnInit {
 
   name: string = "שושן צחור - משתלה";
 
-  getSecName() : string { 
-    return "המשתלה שלכם בצפון";
-  }
+  getSecName() : string { return "המשתלה שלכם בצפון"; }
 
   picAndBorderHeight: number = 250;
   picWidth: number = 320;

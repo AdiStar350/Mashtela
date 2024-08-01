@@ -1,17 +1,17 @@
 <div *ngFor="let p of products; let i=index">
     <div class="product-container">
-		<p class="index">{{i+1}}</p>
+		<p class="index">{{ i+1 }}</p>
       	<div class="image-container">
-        	<img [src]="p.image" width="200" height="200" alt="{{p.name}}">
+        	<img [src]="p.image" width="200" height="200" alt="{{ p.name }}">
       	</div>
       	<div>
         	<div class="name-container">
-          		<h4 [ngStyle]="{ color: p.price > 100 ? 'green' : 'black' }">{{p.name}}</h4>
-				<h5>{{p.code}}</h5>
+          		<h4 [ngStyle]="{ color: p.price > 100 ? 'green' : 'black' }">{{ p.name }}</h4>
+				<h5>{{ p.code }}</h5>
         	</div>
 			<div class="detailContainer">
-				<div class="details"><b>מחיר:</b> {{p.price}}₪</div>
-				<div class="details"><b>צבע:</b> {{p.color}}</div>
+				<div class="details"><b>מחיר:</b> {{ p.price }}₪</div>
+				<div class="details"><b>צבע:</b> {{ p.color }}</div>
 			</div>
       	</div>
       	<div class="options">
