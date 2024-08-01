@@ -6,7 +6,7 @@
       	</div>
       	<div>
         	<div class="name-container">
-          		<h4>{{p.name}}</h4>
+          		<h4 [ngStyle]="{ color: p.price > 100 ? 'green' : 'black' }">{{p.name}}</h4>
 				<h5>{{p.code}}</h5>
         	</div>
 			<div class="detailContainer">
@@ -15,7 +15,9 @@
 			</div>
       	</div>
       	<div class="options">
-			<button class="btn2">קנה אותי</button>
+			<button class="btn2" [ngStyle]="{ backgroundColor: p.price > 100 ? 'green' : '#B278E9' }">קנה אותי</button>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="btn2" (click)="p.price = getPriceAfterDiscount(p.price)" *ngIf="p.price > 100">הנחה</button>
       	</div>
     </div>
 </div>

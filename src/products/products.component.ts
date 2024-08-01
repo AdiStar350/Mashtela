@@ -19,7 +19,7 @@ export class ProductsComponent implements OnInit {
             name: "אדנית",
             price: 25,
             color: "אפור, חום",
-            image: "https://mashtela-urbanit.co.il/images/stories/virtuemart/product/266.png"
+            image: "https://mashtela-urbanit.co.il/images/stories/virtuemart/product/266.png",
         },
         {
             code: 129,
@@ -50,4 +50,6 @@ export class ProductsComponent implements OnInit {
             image: "https://mashtela-urbanit.co.il/images/stories/virtuemart/product/antorium_red.jpg"
         }
     ];
+
+    getPriceAfterDiscount(price: number): number { return price - price / 10; }
 }
